@@ -11,13 +11,13 @@ rg VARCHAR(9) NOT NULL,
 telefone_aluno VARCHAR(11),
 telefone_responsavel VARCHAR (11) NOT NULL,
 email VARCHAR (100) NOT NULL,
-data_nascimento TIMESTAMP NOT NULL
+data_nasc TIMESTAMP NOT NULL
 );
 
 create table tbl_turma(
 cod_turma INT AUTO_INCREMENT PRIMARY KEY,
-sigla VARCHAR (10) UNIQUE NOT NULL,
-nome VARCHAR (100)
+sigla_turma VARCHAR (10) UNIQUE NOT NULL,
+nome_turma VARCHAR (100)
 );
 
 create table tbl_disciplinas(
